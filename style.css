@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+:root{
+    --vDarkGray:hsl(0, 0%, 17%);
+    --darkGray:hsl(0, 0%, 59%);
+}
+
+.tracker{
+    width:100%;
+    height:40vh;
+    background-image: url(images/pattern-bg-mobile.png);
+    
+}
+.tracker h1{
+    text-align: center;
+    color:white;
+    padding-top:3rem;
+    font-size: 1.8rem;
+}
+
+.tracker-input{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 3rem;
+}
+
+.tracker-input input{
+    border: none;
+    font-size: 1.8rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    border-radius:1rem 0 0 1rem;
+}
+
+.tracker-input button{
+    border: none;
+    padding:1.5rem;
+    background-color: var(--vDarkGray);
+    border-radius: 0 1rem 1rem 0;
+}
